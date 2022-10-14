@@ -32,8 +32,8 @@ Com um currículo desenhado em parceria com pessoas referência em tecnologia e 
 
 ### Bloco 03: Introdução à HTML e CSS
 
- - [ ] **01**: Introdução - HTML & CSS
- - [ ] **01**: HTML & CSS - Estruturas de página
+ - [x] **01**: Introdução - HTML & CSS
+ - [x] **01**: HTML & CSS - Estruturas de página
  - [ ] **02**: HTML & CSS - Primeiros passos em CSS
  - [ ] **03**: HTML & CSS - Seletores e posicionamento
  - [ ] **04**: HTML Semântico
