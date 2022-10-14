@@ -8,25 +8,41 @@
         h1 {
            font-family: sans-serif;
         }
+        
         /*paragrafo com font-weight 600 e 3x o tamanho do body*/
         p {
             font-weight: 600;
             font-size: 3em;
         }
-        /*modifica o font-size do body para 16px  */
+        
+        /*modifica o font-size do body para 16px e explore outras propriedades */
         body {
-            font-size: 16px
+            font-size: 16px;
+            font-style: italic;
+            line-height: 30px;
+            text-align: left;
+            text-decoration: underline;
         }
-
+        
+        /* altera cores de background de acordo com a lista */
+        #amarelo {
+            background-color: yellow;
+        }
+        #vermelho {
+            background-color: red;
+        }
+        #marrom {
+            background-color: brown;
+        }
     </style>
   </head>
   <body>
     <h1>Cores</h1>
     <p>Qual é a sua cor favorita?</p>
     <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="amarelo">Amarelo</li>
+      <li id="vermelho">Vermelho</li>
+      <li id="marrom">Marrom</li>
     </ul>
   </body>
 </html>
