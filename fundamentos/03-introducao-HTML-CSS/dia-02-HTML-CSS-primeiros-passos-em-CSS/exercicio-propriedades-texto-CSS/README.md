@@ -1,1 +1,1 @@
-#Exercício sobre propriedades de texto no CSS
+# Exercício sobre propriedades de texto no CSS
