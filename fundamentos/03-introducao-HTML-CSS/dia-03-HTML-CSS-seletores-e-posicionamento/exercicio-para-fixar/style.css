@@ -1,0 +1,53 @@
+div:hover{
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+div:nth-of-type(1) {
+    background-color: blue;
+}
+
+div:nth-of-type(2) {
+    background-color: green;
+}
+
+div:nth-of-type(3){
+    background-color: purple;
+}
+
+div:nth-of-type(4){
+    background-color: gray;
+}
+
+div:nth-of-type(5){
+    background-color: lightblue;
+}
+
+div:nth-of-type(1) h3{
+    font-family: monospace;
+}
+
+div:nth-of-type(2) h3{
+    font-family: Arial;
+}
+
+div:nth-of-type(3) h3{
+    font-family: Verdana;
+}
+
+div:nth-of-type(4) h3{
+    font-family:Georgia;
+}
+
+div:nth-of-type(5) h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div:nth-of-type(3) h3{
+    font-size: xx-large;
+}
+
+div:nth-of-type(odd) h3{
+    font-style: italic;
+}
