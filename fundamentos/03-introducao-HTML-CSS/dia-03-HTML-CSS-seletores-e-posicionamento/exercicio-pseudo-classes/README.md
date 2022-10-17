@@ -1,0 +1,1 @@
+# Exercicio agrupamento de seletores e pseudo-classes CSS
