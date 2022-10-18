@@ -25,3 +25,12 @@ h1 {
     text-align: center;
     width: 300px;
   }
+
+  .ranking li{
+    display: block;
+    height: 20px;
+  }
+
+  .second-third li{
+    display: inline
+  }
