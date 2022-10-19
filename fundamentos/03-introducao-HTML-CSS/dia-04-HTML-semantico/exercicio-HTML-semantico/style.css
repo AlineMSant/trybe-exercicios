@@ -29,7 +29,7 @@ header, nav, article {
     border-bottom: 2px grey solid;
 }
 
-img, p {
+img, p, table {
     margin-left: 20px;
     margin-right: 500px;
 }
@@ -43,6 +43,15 @@ aside {
     padding-bottom: 1000px; 
     text-align: center;
 
+}
+
+table, tr, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 300px;
 }
 
 
