@@ -1,0 +1,1 @@
+# Exercicio sobre OR no JavaScript
