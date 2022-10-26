@@ -7,14 +7,14 @@ let info = {
   console.log('Bem-vinda,' + ' ' + info.personagem);
 
 info['recorrente'] = "sim";
-console.log(info);
+// console.log(info);
 
 for(let chaves in info){
-    console.log(chaves);
+    // console.log(chaves);
 }
 
 for(let valor in info){
-    console.log(info[valor]);
+    // console.log(info[valor]);
 }
 
 let info2 = {
