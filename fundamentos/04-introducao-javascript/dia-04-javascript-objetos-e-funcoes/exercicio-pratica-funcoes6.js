@@ -22,4 +22,5 @@ return resultado;
 }
 
 console.log(verificaFimDaPalavra('fernando','ndo'));
+console.log(verificaFimDaPalavra('fernando','fer'));
 
