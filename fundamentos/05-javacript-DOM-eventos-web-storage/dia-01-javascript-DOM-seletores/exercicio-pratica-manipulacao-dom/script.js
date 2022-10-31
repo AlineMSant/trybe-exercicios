@@ -28,7 +28,10 @@ primeiraTagP[0].style.textTransform = "upperCase";
 
 // 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
 
-console.log(document.getElementsByTagName("p"));
-
+let todosP = document.getElementsByTagName("p");
+for(let i=0; i<todosP.length; i=i+1){
+    const array = todosP[i];
+    console.log(array);
+}
 
 // */
