@@ -1,1 +1,0 @@
-# Exercicio para fixar Switch e Case em JS
