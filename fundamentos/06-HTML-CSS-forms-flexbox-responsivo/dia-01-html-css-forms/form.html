@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>Meu Primeiro Formulário</h1>
+</header>
+<form action="" method="GET">
+  <div id="form"> 
+    <label for="name">Nome: </label>
+    <input type="text" id="name" name="name" minlength="10" maxlength="40">
+    <br><br>
+
+    <label for="e-mail">Email: </label>
+    <input type="email" id="e-mail" name="email" maxlength="50" minlength="10">
+    <br><br>
+
+    <label for="destination">Destino Preferido: </label>
+    <input type="radio" id="destination" name="destination">Cidade
+    <input type="radio" id="destination" name="destination">Campo
+    <input type="radio" id="destination" name="destination">Praia
+    <input type="radio" id="destination" name="destination">Montanhas
+    <br><br>
+
+    <label>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label><br>
+    <textarea name="textWhy" id="text-why" cols="30" rows="10" maxlength="500" placeholder="Escreva aqui sua resposta com até 500 caracteres..."></textarea>
+    <br><br>
+    
+    <label>Qual a melhor data para realizar sua viagem? </label><br>
+    <input type="date" name="date">
+    <br><br>
+
+    <input type="radio" id="opportunity" name="opportunity">
+    <label for="opportunity"></label>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+    <br>
+
+    <input type="radio" id="agreement" name="agreement" required>
+    <label for="agreement">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+  </div>
+  
+  <div id="btn">
+    <button type="submit" id="btn-submit">Enviar</button>
+    <button type="reset" id="btn-reset">Apagar</button>
+  </div>
+
+</form>
+
+<script src="script.js"></script>
+    
+</body>
+</html>

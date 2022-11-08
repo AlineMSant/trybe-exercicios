@@ -1,0 +1,44 @@
+body {
+background-image: url('fundo4.jpeg');
+background-size: cover;
+padding: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 70%;
+margin-left: 13%;
+}
+
+header {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+color:  white;
+}
+
+#form {
+border-radius: 5px;
+border: 2px solid white;
+padding: 20px;
+background-color: white ;
+}
+
+#btn {
+padding: 20px;
+}
+
+input {
+border-radius: 5px;
+border-color: #D3D3D3;
+}
+
+textarea {
+border-radius: 5px;
+margin-top: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+font-size: 20px;
+background-color: white;
+border-radius: 5px;
+color: black;    
+}
+
