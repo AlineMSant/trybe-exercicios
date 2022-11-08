@@ -42,24 +42,20 @@ Com um currículo desenhado em parceria com pessoas referência em tecnologia e 
 **Bloco 04: Introdução à JavaScript e Lógica de Programação**
 
  - [x] **01**: Introdução - JavaScript
- - [ ] **01**: JavaScript - Primeiros passos
- - [ ] **02**: JavaScript - Array e loop For
- - [ ] **03**: JavaScript - Lógica de Programação e Algoritmos
- - [ ] **04**: JavaScript - Objetos e funções
- - [ ] **05**: Projeto - Playground Functions
+ - [x] **01**: JavaScript - Primeiros passos
+ - [x] **02**: JavaScript - Array e loop For
+ - [x] **03**: JavaScript - Lógica de Programação e Algoritmos
+ - [x] **04**: JavaScript - Objetos e funções
+ - [x] **05**: Projeto - Playground Functions
 
 ### Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
- - [ ] **01**: JavaScript - DOM e seletores
- - [ ] **02**: JavaScript - Trabalhando com elementos
- - [ ] **03**: JavaScript - Eventos
- - [ ] **04**: JavaScript - Web Storage
- - [ ] **05**: Fundamentos - JavaScript - Projetos
- - [ ] **05**: Projeto - Arte com Pixels
- - [ ] **06**: (Bônus) Projeto - Lista de tarefas
- - [ ] **07**: (Bônus) Projeto - Meme Generator
- - [ ] **07**: (Bônus) Projeto - Adivinhe a Cor
- - [ ] **07**: (Bônus) Projeto - Carta Misteriosa
+ - [x] **01**: JavaScript - DOM e seletores
+ - [x] **02**: JavaScript - Trabalhando com elementos
+ - [x] **03**: JavaScript - Eventos
+ - [x] **04**: JavaScript - Web Storage
+ - [x] **05**: Fundamentos - JavaScript - Projetos
+ - [x] **05**: Projeto - Arte com Pixels
 
 
 ### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
