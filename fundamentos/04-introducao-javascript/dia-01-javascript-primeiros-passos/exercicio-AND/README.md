@@ -1,1 +1,0 @@
-# Exercicio para fixar os aprendizados sobre AND &&
