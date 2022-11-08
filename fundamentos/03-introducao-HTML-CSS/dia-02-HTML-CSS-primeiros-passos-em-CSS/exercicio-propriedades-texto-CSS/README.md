@@ -1,1 +1,0 @@
-# Exercício sobre propriedades de texto no CSS
