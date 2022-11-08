@@ -1,1 +1,0 @@
-# Exercicio para fixar estudo sobre HTML Semântico e elementos de bloco e elementos inline
