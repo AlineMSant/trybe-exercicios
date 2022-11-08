@@ -1,1 +1,0 @@
-# Exercicio para prática de HTML Semântico
