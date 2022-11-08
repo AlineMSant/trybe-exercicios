@@ -1,1 +1,0 @@
-# Exercicio sobre variavel e constante
