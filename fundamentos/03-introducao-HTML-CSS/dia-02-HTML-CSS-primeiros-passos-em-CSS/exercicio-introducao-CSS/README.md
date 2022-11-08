@@ -1,1 +1,0 @@
-# Primeiro exercicio de introdução ao CSS, aprendendo a criar algumas regras. 
