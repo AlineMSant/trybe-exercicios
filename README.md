@@ -60,13 +60,13 @@ Com um currículo desenhado em parceria com pessoas referência em tecnologia e 
 
 ### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 
- - [ ] **01**: HTML & CSS - Forms
- - [ ] **02**: Bibliotecas JavaScript e Frameworks CSS
- - [ ] **03**: Introdução - CSS Flexbox
- - [ ] **03**: CSS Flexbox - Parte 1
- - [ ] **04**: CSS Flexbox - Parte 2
- - [ ] **05**: CSS Responsivo - Mobile First
- - [ ] **06**: Projeto - Trybewarts
+ - [x] **01**: HTML & CSS - Forms
+ - [x] **02**: Bibliotecas JavaScript e Frameworks CSS
+ - [x] **03**: Introdução - CSS Flexbox
+ - [x] **03**: CSS Flexbox - Parte 1
+ - [x] **04**: CSS Flexbox - Parte 2
+ - [x] **05**: CSS Responsivo - Mobile First
+ - [x] **06**: Projeto - Trybewarts
 
 ### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 
