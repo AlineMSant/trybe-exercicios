@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  li{
+    list-style: none;
+  }
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(148, 241, 148);
+        margin: 2%;
+        display: flex;
+    }
+
+    header p{
+        display: flex;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 300%;
+        text-align: center;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    aside {
+        border: 1px solid rgb(184, 178, 178);
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+
+    footer{
+        border-top: 1px solid rgb(184, 178, 178);
+    }
+
+    h2{
+        margin-left: 3%;
+    }
+
+}
+
+
+@media screen and (min-width: 601px){
+    body{
+        background-color: pink;
+        margin: 2%;
+        display: flex;
+    }
+
+    header p{
+        display: flex;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 200%;
+        text-align: center;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    header{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .aside-boxes {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    aside {
+        border: 1px solid rgb(184, 178, 178);
+        border-radius: 5px;
+        max-width: 49%;
+    }
+
+    h2{
+        margin-left: 3%;
+    }
+
+    aside ul {
+        margin: 2%;
+    }
+
+    footer{
+        border-top: 1px solid rgb(184, 178, 178);
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-color: rgb(241, 241, 148);
+    }
+
+    .aside-p{
+        display: flex;
+        margin: 0;
+    }
+
+    .aside-boxes {
+        display: block;
+        min-width: 500px;
+        margin: 0;
+    }
+
+    .aside-one {
+        border: 1px solid rgb(184, 178, 178);
+        border-radius: 5px;
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .aside-two {
+        border: 1px solid rgb(184, 178, 178);
+        border-radius: 5px;
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+
+
