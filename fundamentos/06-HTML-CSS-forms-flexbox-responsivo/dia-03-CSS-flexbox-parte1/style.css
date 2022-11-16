@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+header{
+  background-color: #1C1C1C;
+  color: white;
+  font-size: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#section-p{
+  display: flex;  
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+section p{
+  display: flex;
+  text-align: center;
+}
+
+#section-img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+div{
+  border: 1px solid Gainsboro;
+  border-radius: 5px;
+  background-color: WhiteSmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1%;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+}
