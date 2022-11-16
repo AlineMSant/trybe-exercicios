@@ -1,0 +1,132 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  figure {
+      margin: 0;
+  }
+  figcaption {
+    font-size: .8em;
+  }
+
+/* telas menores, laptops */
+  @media screen and (min-width: 768px){
+    body{
+        /* background-color: pink; */
+        margin: 5%;
+    }
+
+    article {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 25px ;
+    }
+
+    h2 {
+        font-size: 22px ;
+    }
+
+    section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    figure{
+        max-width: 45%;
+    }
+
+
+    img{
+        max-width: 100%;
+    }
+
+  }
+
+/* Desktop */
+
+  @media screen and (min-width: 992px){
+    body{
+        /* background-color: plum; */
+        margin: 5%;
+    }
+
+    article {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 27px ;
+    }
+
+    h2 {
+        font-size: 24px ;
+    }
+
+    section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    figure{
+        max-width: 45%;
+    }
+
+
+    img{
+        max-width: 100%;
+    }
+  }
+
+/* telas grandes e tv */
+@media screen and (min-width: 1200px){
+    body{
+        /* background-color: palevioletred; */
+        /* margin-left: 7%;
+        margin-right: 7%; */
+
+        max-width: 1130px;
+    }
+
+    article {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 27px ;
+    }
+
+    h2 {
+        font-size: 24px ;
+    }
+
+    section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    figure{
+        max-width: 45%;
+        margin: 1%;
+    }
+
+    img{
+        max-width: 100%;
+    }
+   
+}
