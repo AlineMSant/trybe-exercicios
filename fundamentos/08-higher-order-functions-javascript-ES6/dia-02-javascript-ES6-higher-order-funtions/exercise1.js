@@ -78,15 +78,11 @@ const formatedAuthorNamesBirth = () => {
 //Exercicio 3
 //  retornar um objeto em uma arrow function, os parênteses são obrigatórios! Por exemplo: () => ({ chave: valor }).
 const nameAndAge = () => {
-    let array;
-    array = books.map((element) => ({
+    return books.map((element) => ({
        author: element.author.name,
        age: element.releaseYear - element.author.birthYear, 
-    })) 
-
-    array.sort((a, b) => a.age - b.age );
-    return array;
+    })).sort((a, b) => a.age - b.age );
   }
 
-// console.log(nameAndAge())
+console.log(nameAndAge())
 
