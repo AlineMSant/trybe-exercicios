@@ -95,3 +95,36 @@ const getNamedBook = () => {
 
 // console.log(getNamedBook());
 
+//exercicio 4
+
+function everyoneWasBornOnSecXX() {
+  return books.every((obj) => obj.author.birthYear > 1900);
+}
+
+// console.log(everyoneWasBornOnSecXX());
+
+
+//exercicio 5
+
+const someBookWasReleaseOnThe80s = () => {
+  return books.some((obj) => obj.releaseYear >= 1980 && obj.releaseYear < 1990)
+}
+
+// console.log(someBookWasReleaseOnThe80s());
+
+
+//exercicio 6
+
+
+const verify = books.some((book, index) => {{
+  const test = books.some((book2, index2) => {
+    if(index === index2){
+      return;
+    }
+    return book.author.birthYear === book2.author.birthYear ? true : false;
+  });
+  return test;
+}});
+
+
+console.log(verify);
