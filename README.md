@@ -70,22 +70,22 @@ Com um currículo desenhado em parceria com pessoas referência em tecnologia e 
 
 ### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 
- - [ ] **01**: JavaScript ES6 - let, const, arrow functions e template
+ - [x] **01**: JavaScript ES6 - let, const, arrow functions e template
        literals
- - [ ] **02**: JavaScript ES6 - Fluxo de exceção e Objetos
- - [ ] **03**: Primeiros passos em Jest
- - [ ] **04**: Projeto - JavaScript Testes Unitários
+ - [x] **02**: JavaScript ES6 - Fluxo de exceção e Objetos
+ - [x] **03**: Primeiros passos em Jest
+ - [x] **04**: Projeto - JavaScript Testes Unitários
 
 ### Bloco 08: Higher Order Functions do JavaScript ES6
 
- - [ ] **01**: JavaScript ES6 - Introdução a Higher Order Functions
- - [ ] **02**: JavaScript ES6 - Higher Order Functions - forEach, find,
+ - [x] **01**: JavaScript ES6 - Introdução a Higher Order Functions
+ - [x] **02**: JavaScript ES6 - Higher Order Functions - forEach, find,
        some, every, sort
- - [ ] **03**: JavaScript ES6 - Higher Order Functions - map e filter
- - [ ] **04**: JavaScript ES6 - Higher Order Functions - reduce
- - [ ] **05**: JavaScript ES6 - spread operator, parâmetro rest,
+ - [x] **03**: JavaScript ES6 - Higher Order Functions - map e filter
+ - [x] **04**: JavaScript ES6 - Higher Order Functions - reduce
+ - [x] **05**: JavaScript ES6 - spread operator, parâmetro rest,
        destructuring e mais
- - [ ] **06**: Projeto - Zoo functions
+ - [x] **06**: Projeto - Zoo functions
 
 <br>
 
